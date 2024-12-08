@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ai Image Generator</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">AI Image Generator</a></div>
+        
+        <ul>
+            <li><a class="active" href="/home/immortal/Desktop/ai/AI-Image-Generator/index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-info-circle"></i>Info</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+            <li><button class="button"><a href="/home/king/Documents/LoginPage/index.html" class="log"><i class="fa fa-fw fa-user"></i> Log in</a></button></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="body">
+    <div class="container">
+        <h1>Your Ai Image Generator</h1>
+        <p>Write your prompt here to generate images with power of Ai, For example : "Best Quality, Masterpiece,
+            Exteremly Detailed, High Resolution, 4K, Ultra High Resolution, Detailed Shadows, Colorful Braids, 
+            Mixed Fujifilm, Cute, Laugh".</p><br>
+        <div class="row">
+        <div class="column">
+            <img src="/home/king/Pictures/image-6.jpg" alt="F1 car" style="width: 100%">
+            <p>F1 car racing on the track.</p>
+        </div>
+        <div class="column">
+            <img src="/home/king/Pictures/image-1.jpg" alt="cat in spacesuit" style="width:100%">
+            <p>Cat wearing spacesuit.</p>
+        </div>
+        <div class="column">
+            <img src="/home/king/Pictures/image-2.jpg" alt="Beauty" style="width:100%">
+            <p>Beauty woven into every pixel</p>
+        </div>
+        </div>
+
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button class="but" type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+        
+    </div>
+    </div>
+    <script src="college.js"></script>
+
+    <footer>
+		
+        <div class="main-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>An AI image generator is a tool that uses artificial intelligence to create images from textual descriptions.</p>
+                    <div class="social">
+                        <a href="#"><span class="fa fa-facebook-f"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-instagram"></span></a>
+                        <a href="https://wa.me/ +91 9080611512"><span class="fa fa-whatsapp"></span></a>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fa fa-fw fa-map-marker"></span>
+                    <span class="text">Jim & Jill Smith 1888 Colonial dr.Beverly Hills, Ca. 90210</span>
+                </div>
+                
+                <div class="phone">
+                    <span class="fa fa-fw fa-phone"></span>
+                    <span class="text">+91-9080611512</span>
+                </div>
+                
+                <div class="email">
+                    <span class="fa fa-fw fa-envelope"></span>
+                    <span class="text">an521477@gmail.com</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="right box">
+            <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button class="btnn" type="submit">Send</button>
+                        </div>
+                    </form>
+        </div>
+        
+    </div>
+    </footer>  
+
+</body>
+
+</html>
